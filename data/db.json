@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "username": "AdamDaMan",
+      "email": "bubblebutt199891@gmail.com",
+      "number": "1438693575",
+      "password": "password1",
+      "id": 1
+    },
+    {
+      "username": "krissy",
+      "email": "Kristen.stinnett@washburn.edu",
+      "number": "1244363254",
+      "password": "password1",
+      "id": 2
+    }
+  ]
+}

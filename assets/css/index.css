@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+#mainPage,
+#buyItemPage {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+#mainPage #logout,
+#buyItemPage #logout {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+}
+
+#mainPage #logout:hover,
+#buyItemPage #logout:hover {
+  cursor: pointer;
+}
+
+#mainPage #date,
+#buyItemPage #date {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#mainPage h1,
+#buyItemPage h1 {
+  margin: 50px 0 40px;
+}
+
+#mainPage section ul {
+  list-style: none;
+  height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#mainPage section ul li {
+  width: 48%;
+  height: 48%;
+  border: 2px solid black;
+  margin: 5px;
+}
+
+#mainPage section ul li img:hover {
+  cursor: pointer;
+  width: 170px;
+  height: 170px;
+  border: 2px solid black;
+}
